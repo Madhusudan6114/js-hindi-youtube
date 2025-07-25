@@ -22,8 +22,29 @@ let booleanloggedin=Boolean(loggedin)
 let somenumber=33
 
 let stringnumber=String(33)
-console.log(stringnumber);
-console.log(typeof stringnumber);
+// console.log(stringnumber);
+// console.log(typeof stringnumber);
+
+//////////////////////////////////////////////////////////////////////
+
+//operations
+
+let value=3
+let negval= -value
+//console.log(negval)
+
+let str1="hello"
+let str2="madhusudan"
+
+let str3=str1+str2
+// console.log(str3) //=>hellomadhusudan
+
+
+//console.log(+true)//=>1;
+//console.log(+"")//=>0;
+
+
+
 
 
 
