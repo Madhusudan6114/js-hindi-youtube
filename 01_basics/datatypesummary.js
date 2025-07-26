@@ -11,3 +11,31 @@
 //output will false
 
 const bigNumber=123456789n //=>bigInt
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//Memory
+//2 // 2 types
+//stack(primitive),Heap(Non primitive)
+
+let myyoutubename="madhusudan.com"
+anothername=myyoutubename
+
+anothername="mdm"
+// console.log(myyoutubename)
+// console.log(anothername)
+
+let userOne={
+    email:"user@google.com",
+    upi:"abc@ybl"
+}
+
+let usertwo=userOne
+usertwo.email="madhusudan.com"
+
+console.log(userOne.email)
+console.log(usertwo.email)
+
+
+
